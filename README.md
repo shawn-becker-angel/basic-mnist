@@ -1,8 +1,8 @@
 # Basic-MNIST image-classification
 
-Basic MNIST script that uses @tf.function decorators and tf.GradientTape 
+This repo contains a pytorch MNIST image classification script that uses `@tf.function` decorators and `tf.GradientTape`
 for low-level training and evaluation loops. 
-Pythonized adaptation of jupyter notebook,
+The script is a python-ized adaptation of jupyter notebook,
 [Writing a training loop from scratch](https://keras.io/guides/writing_a_training_loop_from_scratch)
 by fchollet, last modified: 2020/04/15
 

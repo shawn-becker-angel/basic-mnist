@@ -1,5 +1,18 @@
 # adapted from https://keras.io/guides/writing_a_training_loop_from_scratch/
 
+
+import os
+os.system('cls||clear')
+
+print("basic-mnist image classification")
+
+print("importing tensorflow")
+import tensorflow as tf
+print("TensorFlow version:", tf.__version__)
+print("Num GPUs Available: ", len(tf.config.experimental.list_physical_devices('GPU')))
+print("Num CPUs Available: ", len(tf.config.experimental.list_physical_devices('CPU')))
+
+
 # tensorflow installed using
 # conda install -c conda-forge tensorflow
 
